@@ -19,7 +19,7 @@ env:
   # - 'build' for React (Create React App)
   # - 'out' for Next.js static export
   # - 'public' for Hugo
-  BUILD_DIR: 'dist'
+  BUILD_DIR: '.'
 
 jobs:
   build:
