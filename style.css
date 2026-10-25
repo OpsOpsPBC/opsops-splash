@@ -266,9 +266,14 @@ footer section {
 
 footer a, footer span {
     font-size: .8rem;
-    color: gray;
+    color: #555;
 }
 
 footer a {
-    text-decoration: underline dotted gray;
+    text-decoration: underline dotted #555;
+}
+
+footer a:hover {
+    color: #222;
+    text-decoration: underline dotted #222;
 }
