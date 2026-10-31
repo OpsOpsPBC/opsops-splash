@@ -88,7 +88,7 @@ main, footer {
 .hero {
     margin: 0 auto;
     margin-top: 4rem;
-    max-width: 17.5rem;
+    max-width: 25rem;
     text-align: center;
 }
 
@@ -104,7 +104,7 @@ main, footer {
 
 .intro {
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 2rem;
     max-width: 25rem;
 }
 
@@ -120,11 +120,6 @@ main, footer {
     border-bottom: dotted lightgray;
     text-decoration: none;
     font-size: .8rem;
-
-    @media (min-width: 26.25rem) {
-        flex-direction: row;
-        justify-content: space-between;
-    }
 }
 
 .intro .projects a:hover {
@@ -133,14 +128,17 @@ main, footer {
 
 .intro .projects {
     margin: 0 auto;
-    margin-top: 3.6rem;
+    margin-top: 2rem;
     max-width: 25rem;
     text-align: left;
+    line-height: 1.4em;
 }
 
 .intro .projects span {
     font-size: .8rem;
     color: #444;
+    padding-left: 1rem;
+
 }
 
 /* Logo animation */
