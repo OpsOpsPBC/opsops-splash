@@ -117,13 +117,13 @@ main, footer {
     color: #000;
     flex-direction: column;
     align-items: baseline;
-    border-bottom: dotted lightgray;
+    border-bottom: dotted lightgray 0px;
     text-decoration: none;
     font-size: .8rem;
 }
 
 .intro .projects a:hover {
-    border-bottom: dotted darkgray;
+    border-bottom: dotted darkgray 0px;
 }
 
 .intro .projects {
@@ -250,7 +250,8 @@ main, footer {
 footer {
     margin: 0 auto;
     max-width: 42rem;
-    margin-top: 2rem;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
     padding: 2rem;
     display: flex;
     justify-content: space-between;
