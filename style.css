@@ -149,8 +149,8 @@ main, footer {
     transition: transform 0.2s ease-in-out;
 }
 
-.logo-container:hover,
-.logo-container:focus-visible {
+.splash .logo-container:hover,
+.splash .logo-container:focus-visible {
     transform: rotate(-1deg);
 }
 
