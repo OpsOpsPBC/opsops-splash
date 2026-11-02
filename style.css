@@ -31,7 +31,7 @@ main, footer {
     justify-content: flex-start;
     margin: 0 auto;
     max-width: 76rem;
-    padding: 1.2rem 0 1.2rem 0;
+    padding: .8rem 0 .8rem 0;
     border-bottom: 1px solid #D8D8D8;
 }
 
@@ -39,7 +39,7 @@ main, footer {
     margin: 0;
     display: inline-flex;
     align-items: center;
-    gap: .8rem;
+    gap: .6rem;
     text-decoration: none;
     color: inherit;
 }
@@ -47,32 +47,32 @@ main, footer {
 .header .logo-container .logo {
     display: flex;
     align-items: center;
-    width: 2.6rem;
+    width: 1.8rem;
 }
 
 .header .logo-container .logo img {
     width: 100%;
     height: auto;
-    padding-top: .2rem;
 }
 
 .header .logo-text {
     align-items: center;
-    line-height: 1.2;
-    font-size: 1rem;
+    line-height: 1;
+    font-size: .8rem;
     font-weight: 400;
 }
 
 .header .logo-text span {
     padding: .6rem 0 0 .2rem;
     font-weight: 400;
-    font-size: .8rem;
+    font-size: .6rem;
     color: #555;
+    font-family: 'IBM Plex Serif', 'IBM Plex Sans', serif;
 }
 
 .content-area {
     margin: 0 auto;
-    margin-top: 6rem;
+    margin-top: 4rem;
     max-width: 42rem;
 }
 
@@ -87,7 +87,7 @@ main, footer {
 
 .hero {
     margin: 0 auto;
-    margin-top: 4rem;
+    margin-top: 2rem;
     max-width: 25rem;
     text-align: center;
 }
