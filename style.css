@@ -2,7 +2,9 @@
 @import url('fonts/ibm-plex-serif/css/ibm-plex-serif-all.css');
 
 html {
+    /*
     background: #DCE2E8;
+    */
 
     /* min, preferred fluid value, max */
     font-size: clamp(1rem, 0.875rem + 0.5vw, 1.2rem);
@@ -23,6 +25,11 @@ hr {
 main, footer {
     margin: 0 auto;
     margin: 0 2rem;
+}
+
+.btn {
+    display:inline-block;
+    margin-top: 1rem;
 }
 
 .header {
